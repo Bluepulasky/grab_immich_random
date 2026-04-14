@@ -1,0 +1,9 @@
+services:
+  immich-random:
+    build: .
+    container_name: immich-random
+    restart: unless-stopped
+    ports:
+      - "8085:8085"
+    volumes:
+      - ./:/app
