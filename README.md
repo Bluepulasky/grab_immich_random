@@ -1,5 +1,13 @@
 # grab_immich_random
 
+please put your API key inside a config.local.yaml
+
+structure:
+```yaml
+immmich:
+  api_key:
+```
+
 ## Implementation Overview
 
 ### Template yml
